@@ -46,7 +46,8 @@ public class ValuesOrchestrator {
     }
 
     public void printLargest() {
-
+        int largest = calculator.computeLargest();
+        System.out.println("Largest is " + largest);
     }
 
 }

@@ -6,5 +6,6 @@ public class Main {
 	    ValuesOrchestrator orchestrator = new ValuesOrchestrator();
 	    orchestrator.acceptInputValues();
 	    orchestrator.printMedian();
+	    orchestrator.printLargest();
     }
 }

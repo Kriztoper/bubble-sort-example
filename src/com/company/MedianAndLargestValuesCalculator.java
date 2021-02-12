@@ -38,6 +38,6 @@ public class MedianAndLargestValuesCalculator {
     }
 
     public int computeLargest() {
-        return 0;
+        return values[size - 1];
     }
 }
