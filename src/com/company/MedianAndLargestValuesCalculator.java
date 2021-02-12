@@ -1,10 +1,12 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class MedianAndLargestValuesCalculator {
 
-    int[] values;
+    Integer[] values;
 
-    public MedianAndLargestValuesCalculator(int... values) {
+    public MedianAndLargestValuesCalculator(Integer... values) {
         this.values = values;
     }
 
