@@ -41,7 +41,8 @@ public class ValuesOrchestrator {
     }
 
     public void printMedian() {
-
+        double median = calculator.computeMedian();
+        System.out.println("Median is " + median);
     }
 
     public void printLargest() {
